@@ -1,0 +1,46 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .navbar .navbar-nav .nav-link a{
+    font-size: medium;
+    transition: width 0.3s;
+}
+header .navbar .navbar-nav .nav-link a:hover{
+    font-size: 18px;
+    transition: width 0.3s;
+}
+.navbar{
+    background-color: #ffF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;z-index: 1;
+}
+
+.nav-link .active{
+    color: #840e0e;
+}
+
+.btn{
+    background-color: #111010;
+    color: #ffF;
+}
+.search{
+    border: none;
+    outline: none;
+}
+input[placeholder]{
+    color: #000;
+}
+.blog .row .post a{
+    font-size: 0.9rem;
+    color: #27ae60;
+    font-weight: bold;
+    text-decoration: none;
+    border-style: none;
+}
